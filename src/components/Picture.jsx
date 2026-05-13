@@ -1,6 +1,5 @@
 import React from 'react'
-import { aquarium1 } from '../assets'
-import { aurora2 } from '../assets'
+import { first, date, cosdate, graduation } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -10,8 +9,10 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: aquarium1, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: aurora2, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: first, title: '27 Januari 2026', description: "Ini pertama kalinya kita fotbar yh, kalau diinget-inget lagi malu jirlah. Pas itu aku malu buat bilang langsung jadi chat di tiktok, malah keduluan dibilangin bima dulu dibanding kamu baca chat."},   
+    { Image: date, title: '14 Februari 2026', description: "Ini foto pas first date. Awalmya aku modus suruh nemenin main xixixi. Padahal biar bisa jalan pas valentine."},
+    { Image: cosdate, title: '18 April 2026', description: "Pas ini 'pura-pura' ga sengaja ketemu di event xixixi. Aku bingung pas itu tiba-tiba disuruh foto bareng, awalnya kukira rencananya Irvan yang minta fotbar sama temenmu tapi malah jadi aku sama kamu. Tapi gapapa sih, malah bagus xixixi."},
+    { Image: graduation, title: '10 Mei 2026', description: "Masih sebel sih soal ini tapi yaudahlah lagian salahku juga ga nyamperin, kukira kamu tau kalau ditungguin. Pas itu aku mikir gamau ganggu kamu sama yang lain lagi foto soalnya mungkin itu terakhir kalian bisa ketemu jadi aku ngalah."}
 
   ]
   return (

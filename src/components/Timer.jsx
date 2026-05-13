@@ -5,14 +5,13 @@ import { useNavigate } from 'react-router-dom'
 import { ArrowRight } from './icons'
 
 function Timer() {
-  // Anniversary date
-  const START_DATE = new Date('2000-01-01')
+  const START_DATE = new Date('2023-08-07');
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0
-  })
+  });
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -36,7 +35,7 @@ function Timer() {
   <div className="text-center z-10">
     {/* Title */}
     <h1 className="text-lg sm:text-2xl font-bold mb-8 drop-shadow-lg">
-      We've been together for:
+      Time passed since we met:
     </h1>
     
     {/* Countdown */}
@@ -66,7 +65,7 @@ function Timer() {
     <div className="flex justify-center w-full">
       <button 
         className="mt-8 sm:mt-12 px-6 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
-        onClick={() => navigate('/recap')}
+        onClick={() => navigate('/letter')}
       >
         Go to next page <ArrowRight/>
       </button>

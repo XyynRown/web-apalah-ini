@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowRight,ArrowLeft,Message,Image,Music,Heart } from './icons'
+import { ArrowLeft,Message,Image,Music,Heart } from './icons'
 import { useNavigate } from 'react-router-dom'
 import '../index.css'
 function Recap() {
@@ -36,18 +36,12 @@ function Recap() {
         ))}
       </div>
   
-      <div className="flex justify-between w-full">
+      <div className="flex justify-center w-full">
         <button
           className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
-          onClick={() => navigate('/timer')}
+          onClick={() => navigate('/wish')}
         >
           <ArrowLeft />  Previous page
-        </button>
-        <button
-          className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
-          onClick={() => navigate('/letter')}
-        >
-           Next page <ArrowRight />
         </button>
       </div>
     </div>

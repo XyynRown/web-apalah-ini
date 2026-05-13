@@ -1,9 +1,9 @@
 import React from 'react'
-import {ArrowLeft } from './icons'
+import {ArrowLeft, ArrowRight } from './icons'
 import { useNavigate } from 'react-router-dom'
 import { fireworks,mocha } from '../assets';
 
-function Closing() {
+function Wishes() {
   const navigate = useNavigate();
 
   return (
@@ -31,17 +31,23 @@ function Closing() {
 
         {/* Greeting text */}
         <div className='w-[90%] max-w-[400px]'>
-          <p className="z-10 text-white text-center text-xl font-semibold px-4 drop-shadow-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, delectus? Ut delectus voluptatibus consequatur ex.
+          <p className="z-10 text-white text-center text-sm font-semibold px-4 drop-shadow-lg">
+            Once again, Happy Birthday! I wish you all the best in the world, and I hope all your dreams come true. I also hope that we can create more beautiful memories together in the future. I love you so much! <br /> P.S. I like it when you called me "sayang" so pleaseeee do it more often.
           </p>
 
         {/* Button */}
-          <div className="flex justify-center w-full mt-12 z-10">
+          <div className="flex justify-between w-full mt-12 z-10">
             <button
               className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm border border-white/50 rounded-lg"
               onClick={() => navigate('/letter')}
             >
               <ArrowLeft /> Previous page
+            </button>
+            <button
+              className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
+              onClick={() => navigate('/recap')}
+            >
+              Next page <ArrowRight />
             </button>
           </div>   
         </div>
@@ -51,4 +57,4 @@ function Closing() {
   )
 }
 
-export default Closing
+export default Wishes

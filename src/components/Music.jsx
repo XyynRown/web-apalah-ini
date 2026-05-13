@@ -3,7 +3,7 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { seasons,lany,onbended,herewithme,givemeyour,honey,always,mylove } from "../assets";
+import { seasons,lany,onbended,herewithme,bad,always,mylove } from "../assets";
 
 function Music() {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ function Music() {
       title: "'Cause You Have To",
       artist: "LANY",
       albumCover: lany, 
-      left: "40%",
+      left: "35%",
       top: "15%",
     },
     {
@@ -38,16 +38,16 @@ function Music() {
       top: '75%',
     },
     {
-      title: "Give Me Your Forever",
-      artist: "Zack Tabudlo",
-      albumCover: givemeyour, 
+      title: "bad",
+      artist: "wave to earth",
+      albumCover: bad, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "honey",
-      artist: "Boy Pablo",
-      albumCover: honey, 
+      title: "XXL",
+      artist: "Lany",
+      albumCover: lany, 
       left: '25%',
       top: '90%',
     },

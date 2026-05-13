@@ -1,9 +1,12 @@
 
 import picture from "./picture.png";
-import aquarium1 from "./aquarium1.jpg";
-import aurora2 from "./aurora2.jpg";
+import cosdate from "./cosdate.jpg";
+import date from "./first-date.jpg";
+import first from "./first-photo.jpg";
+import graduation from "./graduation.jpg";
 
 import seasons from "./seasons.jpg";
+import bad from "./bad.png";
 import lany from "./lany.png";
 import onbended from "./onbended.jpg";
 import herewithme from "./herewithme.jpg";
@@ -22,9 +25,12 @@ import mocha from "./mocha.gif";
 export {
 
 picture,
-aquarium1,
-aurora2,
+cosdate,
+date,
+first,
+graduation,
 seasons,
+bad,
 mocha,
 fireworks,
 lany,

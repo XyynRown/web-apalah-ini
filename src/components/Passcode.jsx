@@ -2,18 +2,18 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 // Passcode
-const CORRECT_PASSCODE = '0000' 
+const CORRECT_PASSCODE = '140508' 
 
 function Passcode() {
     const [passcode, setPasscode] = useState([])
     const [message, setMessage] = useState('')
     const navigate = useNavigate();
     const handleNumberClick = (number) => {
-      if (passcode.length < 6) {
+      if (passcode.length <= 6) {
         const newPasscode = [...passcode, number]
         setPasscode(newPasscode)
   
-        if (newPasscode.length === 4) {
+        if (newPasscode.length === 6) {
           const enteredPasscode = newPasscode.join('')
           if (enteredPasscode === CORRECT_PASSCODE) {
             setMessage('Yayy!! :)')
@@ -23,7 +23,7 @@ function Passcode() {
               
             }, 500)
           } else {
-            setMessage('Incorrect passcode, hint: our anniversary date!')
+            setMessage('Incorrect passcode, hint: your birthday!')
             setTimeout(() => {
               setPasscode([])
               setMessage('')
@@ -45,7 +45,7 @@ function Passcode() {
 
             {/* Passcode Dots */}
             <div className="flex gap-4 mb-16">
-            {[...Array(4)].map((_, i) => (
+            {[...Array(6)].map((_, i) => (
                 <div
                 key={i}
                 className={`w-3.5 h-3.5 rounded-full ${

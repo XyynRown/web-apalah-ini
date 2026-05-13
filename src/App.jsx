@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {Closing, Letter,Passcode,Question,Recap,Timer,Message,Music,Picture} from './components'
+import {Wishes, Letter,Passcode,Question,Recap,Timer,Message,Music,Picture} from './components'
 import './index.css'
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/recap/music" element={<Music />} />
         <Route path="/recap/pictures" element={<Picture />} />
         <Route path="/letter" element={<Letter />} />
-        <Route path="/closing" element={<Closing />} />
+        <Route path="/wish" element={<Wishes />} />
       </Routes>
     </Router>
   )

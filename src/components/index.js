@@ -3,7 +3,7 @@ import Question from './Question';
 import Timer from './Timer';
 import Recap from './Recap';
 import Letter from './Letter';
-import Closing from './Closing';
+import Wishes from './Wishes';
 import Music from './Music';
 import Picture from './Picture';
 import Message from './Message';
@@ -15,7 +15,7 @@ export {
   Timer,
   Recap,
   Letter,
-  Closing,
+  Wishes,
   Picture,
   Music,
   Carousel,
