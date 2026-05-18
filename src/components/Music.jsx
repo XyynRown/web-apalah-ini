@@ -88,7 +88,7 @@ function Music() {
       </h1>
 
       {/* Song List */}
-      <div className="song-list space-y-2 mt-8 mb-8 max-h-[300px] overflow-y-auto pr-4">
+      <div className="song-list space-y-2 mt-8 mb-8 max-h-[300px] overflow-y-auto px-4">
         {songs.map((song, index) => (
           <button
             key={index}
