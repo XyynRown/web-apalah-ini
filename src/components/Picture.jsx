@@ -1,5 +1,5 @@
 import React from 'react'
-import { first, date, cosdate, graduation } from '../assets'
+import { picture } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
