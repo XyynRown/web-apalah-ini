@@ -1,9 +1,5 @@
 
 import picture from "./picture.png";
-import cosdate from "./cosdate.jpg";
-import date from "./first-date.jpg";
-import first from "./first-photo.jpg";
-import graduation from "./graduation.jpg";
 
 import seasons from "./seasons.jpg";
 import bad from "./bad.png";
@@ -19,16 +15,9 @@ import mylove from "./mylove.jpg";
 import fireworks from "./fireworks.gif";
 import mocha from "./mocha.gif";
 
-
-
-
 export {
 
 picture,
-cosdate,
-date,
-first,
-graduation,
 seasons,
 bad,
 mocha,

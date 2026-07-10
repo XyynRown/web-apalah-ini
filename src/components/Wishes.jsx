@@ -32,7 +32,7 @@ function Wishes() {
         {/* Greeting text */}
         <div className='w-[90%] max-w-[400px]'>
           <p className="z-10 text-white text-center text-sm font-semibold px-4 drop-shadow-lg">
-            Once again, Happy Birthday! I wish you all the best in the world, and I hope all your dreams come true. I also hope that we can create more beautiful memories together in the future. I love you so much! <br /> P.S. I like it when you called me "sayang" so pleaseeee do it more often.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
         {/* Button */}

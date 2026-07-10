@@ -9,11 +9,10 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: first, title: '27 Januari 2026', description: "Ini pertama kalinya kita fotbar yh, kalau diinget-inget lagi malu jirlah. Pas itu aku malu buat bilang langsung jadi chat di tiktok, malah keduluan dibilangin bima dulu dibanding kamu baca chat."},   
-    { Image: date, title: '14 Februari 2026', description: "Ini foto pas first date. Awalmya aku modus suruh nemenin main xixixi. Padahal biar bisa jalan pas valentine."},
-    { Image: cosdate, title: '18 April 2026', description: "Pas ini 'pura-pura' ga sengaja ketemu di event xixixi. Aku bingung pas itu tiba-tiba disuruh foto bareng, awalnya kukira rencananya Irvan yang minta fotbar sama temenmu tapi malah jadi aku sama kamu. Tapi gapapa sih, malah bagus xixixi."},
-    { Image: graduation, title: '10 Mei 2026', description: "Masih sebel sih soal ini tapi yaudahlah lagian salahku juga ga nyamperin, kukira kamu tau kalau ditungguin. Pas itu aku mikir gamau ganggu kamu sama yang lain lagi foto soalnya mungkin itu terakhir kalian bisa ketemu jadi aku ngalah."}
-
+    { Image: picture, title: 'Lorem ipsum dolor sit amet', description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+    { Image: picture, title: 'Consectetur adipiscing elit', description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+    { Image: picture, title: 'Sed do eiusmod tempor', description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." },
+    { Image: picture, title: 'Excepteur sint occaecat', description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." }
   ]
   return (
   

@@ -9,8 +9,8 @@ function Message() {
 
   // customize your own title and description. You can also add more items.
   const pictures = [
-    { title: 'Ini judul diisi apa yh', description: "Dikit doang ini mah. First of all, aku mau minta maaf. I might bother you a lot and made you upset. I know I can be annoying sometimes, but I just want to show you how much I care about you. It's true but, actually I want your attention. Maaf ya sayang, mungkin kadang aku berlebihan sampe kamu kesel. I hope you understand that. Second, thank you for being in my life. I am really grateful to have you as my 'girlfriend' or whatever you call it. You are the best thing that ever happened to me, and I will always cherish our time together.", index: 0 },
-    { title: 'Lanjut di sini', description: "Last but not least, stop insecure about yourself. You are gorgeous and deserve all the love in the world. Sometimes you might feel you are not pretty enough, but just to let you know I could spend all day long just to admiring your beauty.", index: 1 }
+    { title: 'Lorem Ipsum', description: "Laborum do dolore excepteur aliqua occaecat. Proident sit ullamco magna reprehenderit commodo nostrud. Cupidatat cupidatat voluptate pariatur aliquip irure nisi cillum aliqua excepteur dolor fugiat. Reprehenderit elit sit duis enim sint cupidatat deserunt sunt. Reprehenderit eiusmod nisi sit tempor cillum eu sit ullamco quis laboris. Labore ad et nisi non esse ipsum id occaecat. Consequat minim duis et minim.", index: 0 },
+    { title: 'Dolor sit', description: "Adipisicing commodo in officia elit ullamco. Velit mollit ea tempor velit. Deserunt nulla do in pariatur laborum officia eu dolore irure. Aute exercitation voluptate magna consectetur.", index: 1 }
   ]
   return (
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">

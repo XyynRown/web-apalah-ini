@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 // Passcode
-const CORRECT_PASSCODE = '140508' 
+const CORRECT_PASSCODE = '140508' //ganti ini jadi password bebas
 
 function Passcode() {
     const [passcode, setPasscode] = useState([])
